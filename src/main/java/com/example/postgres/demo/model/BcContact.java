@@ -14,10 +14,11 @@ import javax.persistence.Id;
  * @author yanggt
  * @date 19-8-8
  */
-@Entity(name = "bc_contact")
+@Entity
 @Data
 @Getter
 @Setter
+@Table(name = "bc_contact",schema = "qqq")
 public class BcContact {
 
     @Id
