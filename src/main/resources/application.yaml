@@ -14,8 +14,7 @@ spring:
         hbm2ddl:
           auto: update
   datasource:
-    url: jdbc:postgresql://192.168.17.195:5432/test
+    url: jdbc:postgresql://127.0.0.1:5432/ygt
     username: postgres
     password: postgres
     driver-class-name: org.postgresql.Driver
-
